@@ -5,7 +5,7 @@ server.get('/', (req, res)=> {
     res.send("server is running");
 })
 
-const port = 3030;
+const port = 3000;
 server.listen(port, () =>{
     console.log(`Server running on port ${port}`);
 });
